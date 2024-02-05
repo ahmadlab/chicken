@@ -1,14 +1,8 @@
 name: chicken
 description: "chickenStyle is a package that can help developers
-to speed up the process of creating textstyles.
-as we know the more complex the page we create
-the more we interact with textstyle.
-designing the textstyle in each widget is a very tiring job.
-chickenStyle comes like a class in CSS, where is the declaration of this class
-we save it in a different file, and we can call that class anytime and anywhere
-Apart from that. just type one line of bash code and you will get
-more than 20 textstyle classes ready to use"
-version: 0.0.6
+to speed up the process of creating textstyles widget.
+just type one line bash code and chickenStyle will generate file, class and widget for you."
+version: 0.0.10
 homepage: https://github.com/ahmadlab/chicken
 
 environment:

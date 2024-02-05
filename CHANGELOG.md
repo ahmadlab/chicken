@@ -16,3 +16,17 @@
 
 ## 0.0.6
 * testing 6
+
+
+## 0.0.7
+* testing 6
+
+
+## 0.0.8
+* testing 8
+
+## 0.0.9
+* Finalize documentation
+
+## 0.0.10
+* Finalize documentation

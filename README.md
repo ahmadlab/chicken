@@ -1,4 +1,15 @@
-chicken is a package to make it easier for developers when they create lots of pages with lots of text styles, with this chicken package the styles for styling text are created using a generator so developers no longer need to create manual text styles
+chickenStyle is a package that can help developers
+to speed up the process of creating textstyles in general.
+as we know the more complex the page we create
+the more we interact with textstyle.
+designing the textstyle in each widget is a very tiring job,
+and you definitely won't be able to be consistent in your work.
+chickenStyle comes like a class in CSS, where is the declaration of this class
+we save it in a different file, and we can call that class anytime and anywhere
+Apart from that, we don't need to declare classes one by one,
+you just type one line of bash code and you will get
+more than 20 textstyle classes ready to use.
+In that class you can define colors, font family, fontweight and others..
 
 ## Features
 
@@ -11,11 +22,10 @@ start using the package.
 
 ## Usage
 
-Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+open your terminal and type
 
-```dart
-const like = 'sample';
+```bash
+dart run chicken --color=Colors.red
 ```
 
 ## Additional information

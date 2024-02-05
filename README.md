@@ -28,6 +28,8 @@ open your terminal and type
 dart run chicken --color=Colors.red
 ```
 
+and you will find new file on your apps ./lib/chickenStyle/ChickenStyleRed.dart
+
 ## Additional information
 
 Tell users more about the package: where to find more information, how to

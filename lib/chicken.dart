@@ -1,6 +1,5 @@
 library chicken;
 
-import 'package:chicken/chickenGenerator.dart';
 import 'package:flutter/material.dart';
 
 void main(List<String> arguments) {

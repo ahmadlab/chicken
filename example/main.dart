@@ -11,25 +11,20 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'The Avengers',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-        visualDensity: VisualDensity.adaptivePlatformDensity,
-      ),
       debugShowCheckedModeBanner: false,
-      home: LoadingPage(),
+      home: MyPage(),
     );
   }
 }
 
-class LoadingPage extends StatefulWidget {
-  const LoadingPage({Key? key}) : super(key: key);
+class MyPage extends StatefulWidget {
+  const MyPage({Key? key}) : super(key: key);
 
   @override
-  _LoadingPageState createState() => _LoadingPageState();
+  _MyPageState createState() => _MyPageState();
 }
 
-class _LoadingPageState extends State<LoadingPage> {
-  bool isDarkMode = true;
+class _MyPageState extends State<MyPage> {
 
   @override
   Widget build(BuildContext context) {

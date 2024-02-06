@@ -24,6 +24,27 @@ dart run chicken
 ```
 
 and you will find new file on your apps ./lib/chickenStyle/ChickenStyle.dart
+
+```dart
+// ignore_for_file: prefer_const_constructors
+import 'package:flutter/material.dart';
+
+class ChickenStyle {
+  final regular10 = TextStyle(
+      fontSize: 10, 
+      color: Colors.green
+  );
+  ....
+
+  ....
+  final bold50 = TextStyle(
+      fontSize: 50, 
+      color: Colors.green,
+      fontWeight: FontWeight.bold,
+  );
+}
+
+```
 ## Generate textStyle widget with color red
 
 ```bash
@@ -54,7 +75,7 @@ dart run chicken --min=5 --max=100
 ```
 then sistem will generate custome textStyle widget with fontsize start from 2 to 100
 
-### Generate full costome textStyle
+### Generate full custome textStyle
 ```bash
 dart run chicken --full=Y
 ```

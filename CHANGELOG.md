@@ -30,3 +30,9 @@
 
 ## 0.0.10
 * Finalize documentation
+
+## 0.0.11
+* Finalize documentation
+
+## 0.0.12
+* Finalize documentation

@@ -105,14 +105,14 @@ void chickenGenerator(List<String>? argumentsValue) {
       colorName = "";
     }
     String result =
-        rawTemplate.replaceAll('CLASS_NAME', "ChickenStyle${colorName}");
-    File file = File('lib/chickenStyle/ChickenStyle${colorName}.dart');
+        rawTemplate.replaceAll('CLASS_NAME', "ChickenStyle$colorName");
+    File file = File('lib/chickenStyle/ChickenStyle$colorName.dart');
     file.createSync(recursive: true);
     file.writeAsStringSync(result);
   }else{
     String result =
         rawTemplate.replaceAll('CLASS_NAME', className);
-    File file = File('lib/chickenStyle/${className}.dart');
+    File file = File('lib/chickenStyle/$className.dart');
     file.createSync(recursive: true);
     file.writeAsStringSync(result);
   }

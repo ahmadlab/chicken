@@ -13,5 +13,5 @@ void main(List<String> arguments) {
   }
 
   //chickenGenerator(colorValue);
-  print('File telah dibuat dengan warna: $colorValue');
+  print('Class Created');
 }

@@ -86,6 +86,7 @@ with this code sistem will generate full custome style textStyle including
 - bold, 
 - bold-italic 
 - and bold-undeline 
+
 for each font size. 
 
 and if you do not type "--full" statement chickenStyle only generate regular and bold textStyle widget.

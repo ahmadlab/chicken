@@ -1,5 +1,5 @@
 name: chicken
-description: "chickenStyle is a package that can help developers to creating textstyle widget.
+description: "A Flutter library that can help developers to creating textstyle widget.
 just type one line bash code and chickenStyle will generate file, class and widget for you"
 version: 0.0.12
 homepage: https://github.com/ahmadlab/chicken

@@ -15,7 +15,7 @@ void chickenGenerator(List<String>? argumentsValue) {
   String templateContent = chickenStyleTemplateContent;
   String templateContentFF = chickenStyleTemplateContentWithFontFamily;
 
-   String templateContentFull = chickenStyleTemplateContentFull;
+  String templateContentFull = chickenStyleTemplateContentFull;
   String templateContentFFFull = chickenStyleTemplateContentWithFontFamilyFull;
   String selectedTemplateContent = templateContent;
   String center = "";
@@ -48,17 +48,17 @@ void chickenGenerator(List<String>? argumentsValue) {
     int checkFontFamily =
         argumentsValue.indexWhere((element) => element.contains("font-family"));
     if (checkFontFamily != -1) {
-      if(checkFullTemplate == -1){
+      if (checkFullTemplate == -1) {
         selectedTemplateContent = templateContentFF;
-      }else{
+      } else {
         selectedTemplateContent = templateContentFFFull;
-      } 
+      }
       fontFamily =
           argumentsValue[checkFontFamily].replaceAll('--font-family=', '');
-    }else{
-      if(checkFullTemplate == -1){
+    } else {
+      if (checkFullTemplate == -1) {
         selectedTemplateContent = templateContent;
-      }else{
+      } else {
         selectedTemplateContent = templateContentFull;
       }
     }
@@ -67,7 +67,6 @@ void chickenGenerator(List<String>? argumentsValue) {
     int checkMin =
         argumentsValue.indexWhere((element) => element.contains("min"));
     if (checkMin != -1) {
-      
       min = int.parse(argumentsValue[checkMin].replaceAll('--min=', ''));
     }
 
@@ -75,7 +74,6 @@ void chickenGenerator(List<String>? argumentsValue) {
     int checkMax =
         argumentsValue.indexWhere((element) => element.contains("max"));
     if (checkMax != -1) {
-      
       max = int.parse(argumentsValue[checkMax].replaceAll('--max=', ''));
     }
 
@@ -109,9 +107,8 @@ void chickenGenerator(List<String>? argumentsValue) {
     File file = File('lib/chickenStyle/ChickenStyle$colorName.dart');
     file.createSync(recursive: true);
     file.writeAsStringSync(result);
-  }else{
-    String result =
-        rawTemplate.replaceAll('CLASS_NAME', className);
+  } else {
+    String result = rawTemplate.replaceAll('CLASS_NAME', className);
     File file = File('lib/chickenStyle/$className.dart');
     file.createSync(recursive: true);
     file.writeAsStringSync(result);
